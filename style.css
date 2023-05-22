@@ -78,8 +78,8 @@ select {
 
 .container {
   display: flex;
-  min-height: 400px;
-  max-height: 900px;
+  width: 100vw;
+  height: 100vh;
 }
 
 .image {
@@ -91,7 +91,7 @@ select {
 .form {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   flex: 2;
   flex-basis: 66.66%;
 }
