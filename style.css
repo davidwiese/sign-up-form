@@ -75,3 +75,18 @@ select {
 }
 
 /* reset end */
+
+.container {
+  display: flex;
+}
+
+.image {
+  flex: 1;
+  flex-basis: 33.33%;
+  background-color: grey;
+}
+
+.form {
+  flex: 2;
+  flex-basis: 66.66%;
+}
