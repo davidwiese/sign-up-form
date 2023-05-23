@@ -85,7 +85,9 @@ select {
 .image {
   flex: 1;
   flex-basis: 33.33%;
-  background-color: grey;
+  background-image: url(images/mountains.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .form {
