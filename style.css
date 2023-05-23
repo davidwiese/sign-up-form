@@ -107,19 +107,24 @@ select {
 .form {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   flex: 2;
   flex-basis: 63%;
 }
 
 .hero {
-  max-height: 300px;
+  height: 37%;
+  background-color: rgba(211, 211, 211, 0.2);
+  padding: 4em 3em 5em 3em;
 }
 
 .input {
-  max-height: 300px;
+  height: 26%;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2);
+  padding: 1em;
 }
 
 .login {
-  max-height: 300px;
+  height: 37%;
+  background-color: rgba(211, 211, 211, 0.2);
+  padding: 1em;
 }
