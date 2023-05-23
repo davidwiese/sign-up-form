@@ -84,10 +84,24 @@ select {
 
 .image {
   flex: 1;
-  flex-basis: 33.33%;
+  flex-basis: 37%;
   background-image: url(images/mountains.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.logo-bg {
+  background-color: rgba(0, 0, 0, 0.25);
+  height: 150px;
+  margin-top: 13em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-bg img {
+  max-width: 95%;
+  max-height: 95%;
 }
 
 .form {
@@ -95,7 +109,7 @@ select {
   flex-direction: column;
   justify-content: space-around;
   flex: 2;
-  flex-basis: 66.66%;
+  flex-basis: 63%;
 }
 
 .hero {
