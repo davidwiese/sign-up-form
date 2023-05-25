@@ -136,3 +136,9 @@ select {
   background-color: rgba(211, 211, 211, 0.2);
   padding: 2em 3em;
 }
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
