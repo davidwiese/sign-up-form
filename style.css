@@ -116,7 +116,11 @@ select {
   height: 37%;
   min-height: 310px;
   background-color: rgba(211, 211, 211, 0.2);
-  padding: 4em 3em 5em 3em;
+  padding: 2em 3em;
+}
+
+.hero h2 {
+  padding: 5em 3em 0em 0em;
 }
 
 .input {
