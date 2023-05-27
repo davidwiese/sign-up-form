@@ -114,25 +114,25 @@ select {
 
 .hero {
   height: 37%;
-  min-height: 310px;
+  min-height: 36vh;
   background-color: rgba(211, 211, 211, 0.2);
-  padding: 2em 3em;
+  padding: 0em 3em;
 }
 
 .hero h2 {
-  padding: 5em 3em 0em 0em;
+  padding: 4em 3em 0em 0em;
 }
 
 .input {
   height: 26%;
-  min-height: 310px;
+  min-height: 28vh;
   box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2);
   padding: 2em 3em;
 }
 
 .login {
   height: 37%;
-  min-height: 310px;
+  min-height: 36vh;
   background-color: rgba(211, 211, 211, 0.2);
   padding: 2em 3em;
 }
