@@ -28,52 +28,71 @@
         <div class="input">
           <h2>Ready to hike?</h2>
           <form action="/" method="post">
-            <label for="first_name">FIRST NAME</label>
-            <input
-              type="text"
-              id="first_name"
-              name="first_name"
-              maxlength="25"
-              required
-            />
-            <label for="last_name">LAST NAME</label>
-            <input
-              type="text"
-              id="last_name"
-              name="last_name"
-              maxlength="25"
-              required
-            /><br />
-            <label for="user_email">EMAIL</label>
-            <input type="email" name="email" id="user_email" required />
-            <label for="phone_number">PHONE NUMBER</label>
-            <input
-              type="number"
-              id="phone_number"
-              name="number"
-              pattern="\d{10}"
-              maxlength="10"
-              placeholder="5551234567"
-              required
-            /><br />
-            <label for="user_password">PASSWORD</label>
-            <input
-              type="password"
-              id="user_password"
-              name="password"
-              minlength="8"
-              required
-            />
-            <label for="confirm_password">CONFIRM PASSWORD</label>
-            <input
-              type="password"
-              id="confirm_password"
-              name="confirm_password"
-              minlength="8"
-              required
-            />
+            <div class="form-row">
+              <div class="form-col">
+                <label for="first_name">FIRST NAME</label>
+                <input
+                  type="text"
+                  id="first_name"
+                  name="first_name"
+                  maxlength="25"
+                  required
+                />
+              </div>
+              <div class="form-col">
+                <label for="last_name">LAST NAME</label>
+                <input
+                  type="text"
+                  id="last_name"
+                  name="last_name"
+                  maxlength="25"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-col">
+                <label for="user_email">EMAIL</label>
+                <input type="email" name="email" id="user_email" required />
+              </div>
+              <div class="form-col">
+                <label for="phone_number">PHONE NUMBER</label>
+                <input
+                  type="number"
+                  id="phone_number"
+                  name="number"
+                  pattern="\d{10}"
+                  maxlength="10"
+                  placeholder="5551234567"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-col">
+                <label for="user_password">PASSWORD</label>
+                <input
+                  type="password"
+                  id="user_password"
+                  name="password"
+                  minlength="8"
+                  required
+                />
+              </div>
+              <div class="form-col">
+                <label for="confirm_password">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  id="confirm_password"
+                  name="confirm_password"
+                  minlength="8"
+                  required
+                />
+              </div>
+            </div>
           </form>
         </div>
+
         <div class="login">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit est
           perferendis excepturi enim? Officia, fuga? Voluptatem delectus totam,
