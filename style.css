@@ -1,3 +1,7 @@
+/*font import*/
+
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;800&display=swap");
+
 /* reset start */
 /* Box sizing rules */
 *,
@@ -36,6 +40,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  font-family: "Sen", sans-serif;
 }
 
 /* A elements that don't have a class get default styles */
