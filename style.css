@@ -223,3 +223,24 @@ form input[type="submit"] {
   position: absolute;
   bottom: -0.5em;
 }
+
+@media (max-width: 740px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .image {
+    flex-basis: unset;
+    height: 200px;
+  }
+
+  .form {
+    flex-basis: unset;
+    padding: 2em;
+  }
+
+  .login {
+    flex-basis: unset;
+    padding: 2em;
+  }
+}
