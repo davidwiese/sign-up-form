@@ -134,6 +134,7 @@ form {
   flex: 1;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .form-col input {
@@ -144,6 +145,10 @@ form {
   padding: 2px;
 }
 
+.form-col input.error {
+  border-color: red;
+}
+
 label {
   font-family: Arial, Helvetica, sans-serif;
   font-size: small;
@@ -151,6 +156,14 @@ label {
 
 form * {
   width: 100%;
+}
+
+input:focus {
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+*:focus {
+  outline: 1px solid #536c64;
 }
 
 .input {
@@ -171,6 +184,16 @@ form * {
   margin: 3em 2em 2em 2em;
 }
 
+button {
+  background-color: #536c64;
+  color: white;
+  padding: 0.5em 2.5em;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2em;
+}
+
 .login {
   flex: 1.1;
   background-color: rgba(211, 211, 211, 0.2);
@@ -187,4 +210,16 @@ form input[type="submit"] {
   grid-column: span 2;
   width: auto;
   margin-top: 1em;
+}
+
+.error {
+  outline-color: red;
+}
+
+.error_message {
+  color: red;
+  font-size: small;
+  visibility: visible;
+  position: absolute;
+  bottom: -0.5em;
 }

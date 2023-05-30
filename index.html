@@ -78,7 +78,9 @@
                   name="password"
                   minlength="8"
                   required
+                  class="error"
                 />
+                <span class="error_message">* passwords do not match</span>
               </div>
               <div class="form-col">
                 <label for="confirm_password">CONFIRM PASSWORD</label>
@@ -88,6 +90,7 @@
                   name="confirm_password"
                   minlength="8"
                   required
+                  class="error"
                 />
               </div>
             </div>
@@ -100,6 +103,6 @@
         </div>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </body>
 </html>
